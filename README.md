@@ -11,10 +11,10 @@ This program classifies decimal numbers represented as 28x28 pixel blocks, with 
 - Wait for the result. Depending on your processor's power, it may take some time (sometimes 5+ minutes). The result will typically be between 9500 and 10000, indicating the number of correct guesses out of 10000 decimal numbers.
 
 # What I Learned
-- Parallel programming with multiple child processes by forking.
-- Creates pipes to communicate between children and parents.
-- C pointers and dereferencing.
-- C dynamic memory management and File IO.
+- Parallel programming using multiple child processes via forking.
+- Establishing communication between parent and child processes using pipes.
+- Understanding C pointers and dereferencing.
+- Dynamic memory management in C, along with File I/O operations.
 
   
 
